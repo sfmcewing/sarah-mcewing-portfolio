@@ -1,0 +1,122 @@
+body {
+  /* Font Declaration */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Playfair Display", "Verdana", sans serif;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('http://i.imgur.com/8Uu0aIC.jpg');
+  background-size: cover;
+  width: 100%;
+  background-position: 50% 50%;
+  border-bottom: 2px solid #022E3F;
+  opacity: .95;
+}
+
+.masthead h1, h2 {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px #022E3F;
+}
+/*.masthead-intro {
+  text-align: center;
+  margin-bottom: 0.1em; 
+  color: white;
+  font-size: 2em;
+  text-shadow: 1px 1px 1px #E4D6D4;
+}*/
+
+.masthead-heading {
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 500;
+  margin-top: -0.2em;
+  margin-bottom: 0.5em; 
+  text-transform: uppercase;
+  color: white;
+  font-size: 3.5em;
+  letter-spacing: .08em;
+}
+
+.masthead-subheading {
+  font-family: "Raleway", sans-serif;
+  font-size: 2em;
+  font-weight: 300;
+  margin-top: -1em;
+}
+
+h3 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 2em;
+    color: #022E3F;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    text-align: center;
+    text-shadow: 2px 2px 2px #796C67;
+}
+
+p {
+  font-family: "Open Sans", "Arial", sans-serif;
+  text-align: center;
+  font-weight: 300;
+}
+
+.about-me, .portfolio {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.portfolio .content {
+  clear: both;
+}
+
+.projects {
+    display: inline-block;
+    width: 33.333333%;
+    clear: left;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+/*.introduction-section > p, .location-section > p, .questions-section > p, .footer-section > p {
+  /*Font declaration 
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 300;
+}
+
+.introduction-section, .location-section, .questions-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.questions-section > h3 {
+  color: #022E3F;
+}
+*/
+.footer-section {
+  text-align: center;
+  background-color: #022E3F;
+  font-family: "Open Sans", "Arial", sans serif;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  clear: both;
+}
+
+.social > li {
+  display: inline;
+  margin: 1em 5px;
+}
+
+.footer-section > p {
+  color: #DACCCB;
+}
+
+a:link, a:visited {
+  color: #DACCCB; 
+}
